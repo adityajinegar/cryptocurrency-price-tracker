@@ -1,3 +1,5 @@
+import "../coin.css";
+
 const Coin = ({
   image,
   name,
