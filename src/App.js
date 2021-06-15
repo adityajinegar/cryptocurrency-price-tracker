@@ -28,7 +28,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="coin-search">
+      <div className="coin-searchbox">
         <h1 className="coin-text">Search a currency</h1>
         <form>
           <input
