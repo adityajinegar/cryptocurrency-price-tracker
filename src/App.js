@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <div className="coin-searchbox">
-        <h1 className="coin-text">Search a currency</h1>
+        <h1 className="coin-text">Aditya's Cryptocurrency Price Tracker</h1>
         <form>
           <input
             type="text"
@@ -48,7 +48,6 @@ function App() {
             price={coin.current_price}
             symbol={coin.symbol}
             volume={coin.total_volume}
-            priceChange={coin.price_change_percentage_24h}
             marketcap={coin.market_cap}
           ></Coin>
         );
